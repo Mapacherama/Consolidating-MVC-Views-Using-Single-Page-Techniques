@@ -1,0 +1,6 @@
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\bin\Debug\PTCData.dll
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\bin\Debug\PTCData.pdb
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.csproj.AssemblyReference.cache
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.csproj.CoreCompileInputs.cache
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.dll
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.pdb
