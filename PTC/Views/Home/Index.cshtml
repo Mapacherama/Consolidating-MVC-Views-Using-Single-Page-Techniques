@@ -8,6 +8,7 @@
 {
     <!-- BEGIN HIDDEN FIELDS AREA -->
     @Html.HiddenFor(m => m.EventCommand)
+    @Html.HiddenFor(m => m.Mode)
     <!-- END HIDDEN FIELDS AREA -->
     if (Model.IsSearchAreaVisible)
     {
@@ -76,14 +77,11 @@
                         }
                     </div>
                 </div>
-                <div class="form-group">
-                    Product Detail goes here!
-                </div>
                 <!-- ** END MESSAGE AREA -->
                 <!-- ** BEGIN INPUT AREA -->
-@*                <div class="form-group">
+                <div class="form-group">
                     @Html.LabelFor(m => m.Entity.ProductName,
-                           "Product Name")
+                 "Product Name")
                     @Html.TextBoxFor(m => m.Entity.ProductName,
                      new { @class = "form-control" })
                 </div>
@@ -104,7 +102,7 @@
                     @Html.LabelFor(m => m.Entity.Price, "Price")
                     @Html.TextBoxFor(m => m.Entity.Price,
                  new { @class = "form-control" })
-                </div>*@
+                </div>
                 <!-- ** END INPUT AREA -->
             </div>
             <div class="panel-footer">
