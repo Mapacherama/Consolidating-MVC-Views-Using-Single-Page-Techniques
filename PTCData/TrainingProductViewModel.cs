@@ -10,7 +10,7 @@ namespace PTCData
             Init();
             // Initialize blank list
             Products = new List<TrainingProduct>();
-            SearchEntity = new TrainingProduct();            
+            SearchEntity = new TrainingProduct();
         }
 
         public List<TrainingProduct> Products { get; set; }
@@ -20,6 +20,7 @@ namespace PTCData
 
         public string Mode { get; set; }
         public string EventCommand { get; set; }
+        public string EventArgument { get; set; }
         public bool IsValid { get; set; }
         public bool IsDetailAreaVisible { get; set; }
         public bool IsListAreaVisible { get; set; }
@@ -28,6 +29,8 @@ namespace PTCData
         private void Init()
         {
             EventCommand = "List";
+            EventArgument = String.Empty;
+            ValidationErrors = new List<KeyValuePair<string, string>>();
 
             ListMode();
         }
@@ -77,6 +80,10 @@ namespace PTCData
                 case "save":
                     Save();
                     Get();
+                    break;
+                
+                case "edit":
+                    System.Diagnostics.Debugger.Break();
                     break;
 
                 case "cancel":

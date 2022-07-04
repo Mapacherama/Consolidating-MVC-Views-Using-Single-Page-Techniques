@@ -39,7 +39,35 @@ namespace PTCData
 
             return ret;
         }
+        public TrainingProduct Get(int productId)
+        {
+            List<TrainingProduct> ret =
+              new List<TrainingProduct>();
+            TrainingProduct entity = null;
 
+            // TODO: Add data access method here
+            ret = CreateMockData();
+
+            // Find the specific product
+            entity = ret.Find(p =>
+               p.ProductId == productId);
+
+            return entity;
+        }
+
+        public bool Update(TrainingProduct entity)
+        {
+            bool ret = false;
+
+            ret = Validate(entity);
+
+            if (ret)
+            {
+                /// TODO: Create UPDATE code here
+            }
+
+            return ret;
+        }
         public bool Validate(TrainingProduct entity)
         {
             ValidationErrors.Clear();
