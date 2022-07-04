@@ -145,6 +145,9 @@
                         <th>Introduction Date</th>
                         <th>Url</th>
                         <th>Price</th>
+                        <th class="pdsa-action-button-column">
+                            Delete
+                        </th>
                     </tr>
                 </thead>
                 <tbody>
@@ -162,6 +165,14 @@
                             <td>@item.IntroductionDate</td>
                             <td>@item.Url</td>
                             <td>@item.Price.ToString("c")</td>
+                            <td class="pdsa-action-button-column">
+                                <a href="#" data-pdsa-action="delete"
+                                   data-pdsa-val="@item.ProductId"
+                                   onclick="return confirm('Delete this Product?');"
+                                   class="btn btn-default btn-sm">
+                                    <i class="glyphicon glyphicon-trash"></i>
+                                </a>
+                            </td>
                         </tr>
                     }
                 </tbody>

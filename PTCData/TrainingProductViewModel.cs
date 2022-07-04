@@ -54,6 +54,15 @@ namespace PTCData
             Mode = "Add";
         }
 
+        private void EditMode()
+        {
+            IsDetailAreaVisible = true;
+            IsListAreaVisible = false;
+            IsSearchAreaVisible = false;
+
+            Mode = "Edit";
+        }
+
         private void Add()
         {
             IsValid = true;
@@ -66,6 +75,32 @@ namespace PTCData
 
             // Put ViewModel into Add Mode
             AddMode();
+        }
+
+        private void Edit()
+        {
+            TrainingProductManager mgr = new TrainingProductManager();
+
+            // Get Product Data
+            Entity = mgr.Get(
+              Convert.ToInt32(EventArgument));
+
+            // Put View Model into Edit Mode
+            EditMode();
+        }
+
+        private void Delete()
+        {
+            TrainingProductManager mgr = new TrainingProductManager();
+            Entity = new TrainingProduct();
+            Entity.ProductId = 
+              Convert.ToInt32(EventArgument);
+
+            mgr.Delete(Entity);
+
+            Get();
+
+            ListMode();
         }
 
         public void HandleRequest()
@@ -83,7 +118,13 @@ namespace PTCData
                     break;
                 
                 case "edit":
-                    System.Diagnostics.Debugger.Break();
+                    IsValid = true;
+                    Edit();
+                    break;
+
+                case "delete":
+                    ResetSearch();
+                    Delete();
                     break;
 
                 case "cancel":

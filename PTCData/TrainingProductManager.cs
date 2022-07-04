@@ -68,6 +68,12 @@ namespace PTCData
 
             return ret;
         }
+        public bool Delete(TrainingProduct entity)
+        {
+            /// TODO: Create DELETE code here
+            return true;
+        }
+
         public bool Validate(TrainingProduct entity)
         {
             ValidationErrors.Clear();
