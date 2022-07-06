@@ -25,6 +25,20 @@ namespace PTCData
             base.Init();
         }
 
+        public override void HandleRequest()
+        {
+            switch (EventCommand.ToLower())
+            {
+                case "paul":
+                    break;
+
+                default:
+                    break;
+            }
+
+            base.HandleRequest();
+        }
+
 
 
         protected override void Add()
@@ -84,6 +98,8 @@ namespace PTCData
         protected override void ResetSearch()
         {
             SearchEntity = new TrainingProduct();
+
+            base.ResetSearch();
         }
 
         protected override void Get()
