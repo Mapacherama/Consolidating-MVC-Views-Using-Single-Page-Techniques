@@ -1,6 +1,18 @@
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\bin\Debug\PTCData.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\bin\Debug\PTCData.pdb
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.csproj.AssemblyReference.cache
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.csproj.CoreCompileInputs.cache
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCData\obj\Debug\PTCData.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCData.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCData.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCCommon.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCCommon.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.csproj.AssemblyReference.cache
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.csproj.CoreCompileInputs.cache
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.csproj.CopyComplete
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCData.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCData.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCCommon.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\bin\Debug\PTCCommon.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.csproj.AssemblyReference.cache
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.csproj.CoreCompileInputs.cache
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.csproj.CopyComplete
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCData\obj\Debug\PTCData.pdb

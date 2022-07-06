@@ -153,6 +153,10 @@
     <Content Include="Scripts\jquery-1.10.2.min.map" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\PTCCommon\PTCCommon.csproj">
+      <Project>{fb0dec60-3ba3-4bd7-a268-5a78ab280f3a}</Project>
+      <Name>PTCCommon</Name>
+    </ProjectReference>
     <ProjectReference Include="..\PTCData\PTCData.csproj">
       <Project>{0d5b2f72-aedc-40a6-a308-8647854ea70e}</Project>
       <Name>PTCData</Name>

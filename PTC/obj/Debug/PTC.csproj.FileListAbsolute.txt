@@ -1,30 +1,64 @@
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\PTC.dll.config
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\PTC.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\PTC.pdb
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\Antlr3.Runtime.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\Microsoft.Web.Infrastructure.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\Newtonsoft.Json.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\PTCData.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Helpers.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Mvc.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Optimization.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Razor.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.WebPages.Deployment.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.WebPages.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.WebPages.Razor.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\WebGrease.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\PTCData.pdb
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Helpers.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Mvc.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Optimization.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.Razor.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.WebPages.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.WebPages.Deployment.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\System.Web.WebPages.Razor.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\Antlr3.Runtime.pdb
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\bin\Newtonsoft.Json.xml
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\obj\Debug\PTC.csproj.AssemblyReference.cache
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\obj\Debug\PTC.csproj.CoreCompileInputs.cache
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\obj\Debug\PTC.csproj.CopyComplete
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\obj\Debug\PTC.dll
-D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTC\obj\Debug\PTC.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTC.dll.config
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTC.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTC.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Antlr3.Runtime.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Microsoft.Web.Infrastructure.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Newtonsoft.Json.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCCommon.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCData.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Helpers.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Mvc.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Optimization.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Razor.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Deployment.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Razor.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\WebGrease.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCCommon.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCData.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Helpers.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Mvc.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Optimization.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Razor.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Deployment.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Razor.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Antlr3.Runtime.pdb
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Newtonsoft.Json.xml
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.csproj.AssemblyReference.cache
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.csproj.CoreCompileInputs.cache
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.csproj.CopyComplete
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.dll
+D:\.NET development\Consolidating MVC Views Using Single Page Techniques Exercise Files\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTC.dll.config
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTC.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTC.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Antlr3.Runtime.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Microsoft.Web.Infrastructure.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Newtonsoft.Json.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCCommon.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCData.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Helpers.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Mvc.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Optimization.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Razor.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Deployment.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Razor.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\WebGrease.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCCommon.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\PTCData.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Helpers.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Mvc.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Optimization.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.Razor.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Deployment.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\System.Web.WebPages.Razor.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Antlr3.Runtime.pdb
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\bin\Newtonsoft.Json.xml
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.csproj.AssemblyReference.cache
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.csproj.CoreCompileInputs.cache
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.csproj.CopyComplete
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.dll
+D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTC\obj\Debug\PTC.pdb

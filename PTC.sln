@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTC", "PTC\PTC.csproj", "{F
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTCData", "PTCData\PTCData.csproj", "{0D5B2F72-AEDC-40A6-A308-8647854EA70E}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PTCCommon", "PTCCommon\PTCCommon.csproj", "{FB0DEC60-3BA3-4BD7-A268-5A78AB280F3A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +22,10 @@ Global
 		{0D5B2F72-AEDC-40A6-A308-8647854EA70E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0D5B2F72-AEDC-40A6-A308-8647854EA70E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0D5B2F72-AEDC-40A6-A308-8647854EA70E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB0DEC60-3BA3-4BD7-A268-5A78AB280F3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB0DEC60-3BA3-4BD7-A268-5A78AB280F3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB0DEC60-3BA3-4BD7-A268-5A78AB280F3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB0DEC60-3BA3-4BD7-A268-5A78AB280F3A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,69 +1,33 @@
-﻿using System;
+﻿using PTCCommon;
+using System;
 using System.Collections.Generic;
 
 namespace PTCData
 {
-    public class TrainingProductViewModel
+    public class TrainingProductViewModel : ViewModelBase
     {
-        public TrainingProductViewModel()
+        public TrainingProductViewModel() : base()
         {
-            Init();
-            // Initialize blank list
-            Products = new List<TrainingProduct>();
-            SearchEntity = new TrainingProduct();
+
         }
 
         public List<TrainingProduct> Products { get; set; }
         public TrainingProduct SearchEntity { get; set; }
         public TrainingProduct Entity { get; set; }
-        public List<KeyValuePair<string, string>> ValidationErrors { get; set; }
 
-        public string Mode { get; set; }
-        public string EventCommand { get; set; }
-        public string EventArgument { get; set; }
-        public bool IsValid { get; set; }
-        public bool IsDetailAreaVisible { get; set; }
-        public bool IsListAreaVisible { get; set; }
-        public bool IsSearchAreaVisible { get; set; }
-
-        private void Init()
+        protected override void Init()
         {
-            EventCommand = "List";
-            EventArgument = String.Empty;
-            ValidationErrors = new List<KeyValuePair<string, string>>();
+            // Initialize blank list
+            Products = new List<TrainingProduct>();
+            SearchEntity = new TrainingProduct();
+            Entity = new TrainingProduct();
 
-            ListMode();
+            base.Init();
         }
 
-        private void ListMode()
-        {
-            IsValid = true;
-            IsDetailAreaVisible = false;
-            IsListAreaVisible = true;
-            IsSearchAreaVisible = true;
 
-            Mode = "List";
-        }
 
-        private void AddMode()
-        {
-            IsDetailAreaVisible = true;
-            IsListAreaVisible = false;
-            IsSearchAreaVisible = false;
-
-            Mode = "Add";
-        }
-
-        private void EditMode()
-        {
-            IsDetailAreaVisible = true;
-            IsListAreaVisible = false;
-            IsSearchAreaVisible = false;
-
-            Mode = "Edit";
-        }
-
-        private void Add()
+        protected override void Add()
         {
             IsValid = true;
 
@@ -77,7 +41,7 @@ namespace PTCData
             AddMode();
         }
 
-        private void Edit()
+        protected override void Edit()
         {
             TrainingProductManager mgr = new TrainingProductManager();
 
@@ -89,11 +53,11 @@ namespace PTCData
             EditMode();
         }
 
-        private void Delete()
+        protected override void Delete()
         {
             TrainingProductManager mgr = new TrainingProductManager();
             Entity = new TrainingProduct();
-            Entity.ProductId = 
+            Entity.ProductId =
               Convert.ToInt32(EventArgument);
 
             mgr.Delete(Entity);
@@ -103,7 +67,7 @@ namespace PTCData
             ListMode();
         }
 
-        public void HandleRequest()
+        public override void HandleRequest()
         {
             switch (EventCommand.ToLower())
             {
@@ -116,7 +80,7 @@ namespace PTCData
                     Save();
                     Get();
                     break;
-                
+
                 case "edit":
                     IsValid = true;
                     Edit();
@@ -145,7 +109,7 @@ namespace PTCData
             }
         }
 
-        private void Save()
+        protected override void Save()
         {
             TrainingProductManager mgr =
         new TrainingProductManager();
@@ -170,12 +134,12 @@ namespace PTCData
             }
         }
 
-        private void ResetSearch()
+        protected override void ResetSearch()
         {
             SearchEntity = new TrainingProduct();
         }
 
-        private void Get()
+        protected override void Get()
         {
             TrainingProductManager mgr = new TrainingProductManager();
 
