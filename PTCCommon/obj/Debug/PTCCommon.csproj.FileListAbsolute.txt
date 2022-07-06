@@ -10,3 +10,9 @@ D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCCommon\obj
 D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCCommon\obj\Debug\PTCCommon.csproj.CoreCompileInputs.cache
 D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCCommon\obj\Debug\PTCCommon.dll
 D:\.NET development\5-mvc-application-techniques-m5-exercise-files\PTCCommon\obj\Debug\PTCCommon.pdb
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCCommon\bin\Debug\PTCCommon.dll
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCCommon\bin\Debug\PTCCommon.pdb
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCCommon\obj\Debug\PTCCommon.csproj.AssemblyReference.cache
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCCommon\obj\Debug\PTCCommon.csproj.CoreCompileInputs.cache
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCCommon\obj\Debug\PTCCommon.dll
+D:\.NET development\Consolidating-MVC-Views-Using-Single-Page-Techniques\PTCCommon\obj\Debug\PTCCommon.pdb
