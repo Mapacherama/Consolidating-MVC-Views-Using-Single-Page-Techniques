@@ -38,7 +38,7 @@ namespace PTCData
             Entity.Price = 0;
 
             // Put ViewModel into Add Mode
-            AddMode();
+            base.Add();
         }
 
         protected override void Edit()
@@ -50,7 +50,7 @@ namespace PTCData
               Convert.ToInt32(EventArgument));
 
             // Put View Model into Edit Mode
-            EditMode();
+            base.Edit();
         }
 
         protected override void Delete()
@@ -64,49 +64,7 @@ namespace PTCData
 
             Get();
 
-            ListMode();
-        }
-
-        public override void HandleRequest()
-        {
-            switch (EventCommand.ToLower())
-            {
-                case "list":
-                case "search":
-                    Get();
-                    break;
-
-                case "save":
-                    Save();
-                    Get();
-                    break;
-
-                case "edit":
-                    IsValid = true;
-                    Edit();
-                    break;
-
-                case "delete":
-                    ResetSearch();
-                    Delete();
-                    break;
-
-                case "cancel":
-                    IsDetailAreaVisible = false;
-                    IsListAreaVisible = true;
-                    IsSearchAreaVisible = true;
-                    Get();
-                    break;
-
-                case "add":
-                    Add();
-                    break;
-
-                case "resetsearch":
-                    ResetSearch();
-                    Get();
-                    break;
-            }
+            base.Delete();
         }
 
         protected override void Save()
@@ -120,18 +78,7 @@ namespace PTCData
             }
             // Set any validation errors
             ValidationErrors = mgr.ValidationErrors;
-            if (ValidationErrors.Count > 0)
-            {
-                IsValid = false;
-            }
-
-            if (!IsValid)
-            {
-                if (Mode == "Add")
-                {
-                    AddMode();
-                }
-            }
+            base.Save();
         }
 
         protected override void ResetSearch()
@@ -144,6 +91,8 @@ namespace PTCData
             TrainingProductManager mgr = new TrainingProductManager();
 
             Products = mgr.Get(SearchEntity);
+
+            base.Get();
         }
     }
 }
